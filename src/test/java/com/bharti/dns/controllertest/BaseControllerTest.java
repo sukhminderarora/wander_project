@@ -1,4 +1,4 @@
-/*package com.bharti.dns.controllertest;
+package com.bharti.dns.controllertest;
 
  
 
@@ -35,4 +35,3 @@ public class BaseControllerTest extends TestCase {
  
 
 }
-*/

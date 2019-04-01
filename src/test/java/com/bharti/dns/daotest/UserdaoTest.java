@@ -1,4 +1,4 @@
-/*package com.bharti.dns.daotest;
+package com.bharti.dns.daotest;
 
  
 
@@ -55,4 +55,3 @@ public class UserdaoTest extends TestCase {
  
 
 }
-*/
