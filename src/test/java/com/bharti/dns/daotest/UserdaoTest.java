@@ -49,7 +49,31 @@ public class UserdaoTest extends TestCase {
                                 assertEquals(user1, user );
 
                 }
+                
+                public void updateuser() {
+                    UserDao base=new UserDao();
 
+                    boolean user=base.updateUser("xyz", "admin","xyz");
+
+                    assertEquals("false", user );
+                    }
+                
+                public void updateuse() {
+                    UserDao base=new UserDao();
+
+                    boolean user=base.updateUser("abc", "ain","abc");
+
+                    assertEquals("true", user );
+                    }
+                
+                
+                public void updateuser1() {
+                    UserDao base=new UserDao();
+
+                    boolean user=base.updateUser("user", "myuser","@123");
+
+                    assertEquals("true", user );
+                    }
  
 
  

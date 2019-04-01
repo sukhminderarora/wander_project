@@ -22,8 +22,6 @@ public class BaseControllerTest extends TestCase {
 
                                 ModelAndView model1 = base.login(null, "eci", "ems", request);
 
-                // ModelAndView model = null;
-
                                 assertEquals("ModelAndView: reference to view with name 'login'; model is {error=Please enter the correct details}",model1 );
 
                 }
